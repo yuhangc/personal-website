@@ -10,31 +10,32 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Motion and Behavior Planning",
+    "Human-Robot Interaction",
+    "Surgical Robots",
+    "SLAM"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
+  course = "PhD in Mechanical Engineering/Robotics"
   institution = "Stanford University"
-  year = 2012
+  # year = 2018
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "M.S. in Mechanical Engineering"
+  institution = "Stanford University"
+  year = 2015
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "B.S. in Mechanical Engineering"
+  institution = "Shanghai Jiao Tong University & Purdue University"
+  year = 2013
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm currently a Ph.D. candidate in the Collaborative Haptics and Robotics in Medicine (CHARM) Lab at Stanford University. My research focus is on human-robot interaction and collaboration, with application in mobile robots and surgical robots.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Through my research and course work, I've developed a broad range of skills including robot controls, motion planning, artificial intelligence, machine learning, mechatronics and embedded systems. I'm passionate about bringing robotic technologies into daily life.
