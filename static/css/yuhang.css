@@ -1,0 +1,64 @@
+/* GENERAL FORMATTING */
+/* Make the default text size smaller, and Raleway */
+ @media screen and (min-width: 58em) {
+   html {
+     font-size: 20px;
+   }
+ }
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* GRAY TEXT */
+.comment{
+  font-family: 'Raleway', sans-serif;
+  color: #AAAAAA;
+}
+
+.btn{
+  font-family: 'Raleway', sans-serif;
+}
+
+#THECONTENT{
+  background-color: #ffffff;
+}
+
+/* NAVBAR coloring */
+
+.navbar-default{
+    font-family: 'Raleway', sans-serif;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav li a{
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    background-color: #333333;
+}
+
+/* Publication listing style */
+.pub-list-item p.title {
+  line-height: normal;
+  font-style: normal;
+  font-size: 1rem;
+  margin-bottom: 0.2em;
+}
+
+.pub-list-item p.pub-authors {
+  margin-bottom: 0em;
+  line-height: normal;
+  font-style: normal;
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
