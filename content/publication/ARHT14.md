@@ -1,5 +1,5 @@
 +++
-title = "The atomistic Green’s function method for interfacial phonon transport"
+title = "The Atomistic Green’s Function Method for Interfacial Phonon Transport"
 date = 2014-03-04
 draft = false
 

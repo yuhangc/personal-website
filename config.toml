@@ -200,7 +200,7 @@ enableGitInfo = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 3
+    publication_format = 0
 
   # Social/Academic Networking
   #
@@ -255,18 +255,18 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 2
+
+[[menu.main]]
   name = "Publications"
   url = "#publications"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
   weight = 4
 
 [[menu.main]]

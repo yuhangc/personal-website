@@ -3,11 +3,11 @@
 
 <!-- Projects widget -->
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-xs-12 col-md-12 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-xs-12 col-md-12">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ $filter_default := default (int $page.Params.filter_default) 0 }}
@@ -52,7 +52,7 @@
         {{ end }}
     </div>
 
-    {{ else }}
+    {{ else if eq $page.Params.view 1 }}
 
     <div class="row isotope projects-container js-layout-masonry">
 
@@ -79,6 +79,51 @@
           </div>
         </div>
       </div>
+
+      {{ end }}
+
+    </div>
+
+    {{ else }}
+
+    <div class="row isotope projects-container js-layout-row">
+
+      {{ range $project := where $.Site.RegularPages "Type" ($page.Params.folder | default "project") }}
+      {{ $.Scratch.Set "project_url" $project.Permalink }}
+      {{ $.Scratch.Set "target" "" }}
+      {{ if $project.Params.external_link }}
+      {{   $.Scratch.Set "project_url" $project.Params.external_link }}
+      {{   $.Scratch.Set "target" "target=\"_blank\"" }}
+      {{ end }}
+
+      <div class="project-item isotope-item">
+        {{ with $project.Params.image_preview }}
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 project-image">
+          <img src="{{ "/img/" | relURL }}{{ . }}" alt="" class="img-responsive">
+        </div>
+        {{ end }}
+
+        <div class="col-xs-12 col-sm-3 col-md-9 col-lg-9">
+          <h2><a href="{{ $.Scratch.Get "project_url" }}" {{ $.Scratch.Get "target" | safeHTMLAttr }}>{{ .Title }}</a></h2>
+
+          <!-- <div class="project-title">
+            <a href="{{ $.Scratch.Get "project_url" }}" {{ $.Scratch.Get "target" | safeHTMLAttr }}>{{ .Title }}</a>
+          </div> -->
+
+          <div class="project-summary">
+            {{ with $project.Params.summary }}
+            <p>
+              {{ . | markdownify }}
+              <a href="{{ $.Scratch.Get "project_url" }}">
+                Learn more
+                <i class="fa fa-angle-double-right"></i>
+              </a>
+            </p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
       {{ end }}
 
     </div>

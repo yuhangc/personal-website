@@ -1,5 +1,5 @@
 +++
-title = "Effects of master-slave tool misalignment in a teleoperated surgical robot"
+title = "Effects of Master-Slave Tool Misalignment in a Teleoperated Surgical Robot"
 date = 2015-05-30
 draft = false
 

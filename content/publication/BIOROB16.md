@@ -1,5 +1,5 @@
 +++
-title = "Two is not always better than one: Effects of teleoperation and haptic coupling"
+title = "Two is not Always Better than One: Effects of Teleoperation and Haptic Coupling"
 date = 2016-06-26
 draft = false
 

@@ -1,5 +1,5 @@
 +++
-title = "Teleoperated versus open needle driving: Kinematic analysis of experienced surgeons and novice users"
+title = "Teleoperated Versus Open Needle Driving: Kinematic Analysis of Experienced Surgeons and Novice Users"
 date = 2015-05-30
 draft = false
 

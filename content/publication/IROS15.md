@@ -1,5 +1,5 @@
 +++
-title = "A paced shared-control teleoperated architecture for supervised automation of multilateral surgical tasks"
+title = "A Paced Shared-Control Teleoperated Architecture for Supervised Automation of Multilateral Surgical Tasks"
 date = 2015-09-28
 draft = false
 
