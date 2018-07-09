@@ -108,3 +108,37 @@ h2 {
   position: relative;
   min-height: 100px;
 }
+
+#research.home-section .project-summary {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+#research.home-section .project-tags {
+  font-size: 0.75rem;
+  color: #9c9c9c;
+}
+
+/* watermark */
+/* to make "white bg" transparent */
+.home-section {
+  background-color: transparent;
+  /*z-index: 1;*/
+}
+
+#watermark{
+  background-size: 393px 400px;
+  background-repeat:no-repeat;
+  background-position:left top;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  pointer-events: none;
+  /*z-index: 0;*/
+  height: 100%;
+  width: 100%;
+  text-align: right;
+  opacity: 0.1;
+}

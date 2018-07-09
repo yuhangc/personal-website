@@ -11,7 +11,7 @@ tags = []
 summary = "In order to function seamlessly in human environment, robots need to interact and communication with people. My thesis aims to enable robots to pro-actively communicate with users to improve efficiency and performance. I'm interested in designing new interaction schemes with wearable technologies (haptics, AR/VR), as well as intelligent algorithms that predict human behaviors and generate optimal plans."
 
 # Optional image to display on homepage.
-image_preview = "project/intro.jpg"
+image_preview = "research/intro.jpg"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

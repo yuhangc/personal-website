@@ -11,7 +11,7 @@ tags = []
 summary = "More than half a million abdominal, gynecologic, urologic and cardiac surgeries are performed minimally invasivelly with surgical robots. Current surgical robotics systems are fully teleoperated. Full or partial automation of some repetitive tasks like palpating and suturing has the potential to reduce surgeon errors, duration of procedures, trauma and expense. I have worked on partial automation and shared-control of surgical sub-tasks in a multilateral setting. "
 
 # Optional image to display on homepage.
-image_preview = "project/surgical_robot.jpg"
+image_preview = "research/surgical_robot.jpg"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
