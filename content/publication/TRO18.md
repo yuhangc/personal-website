@@ -1,6 +1,6 @@
 +++
 title = "Efficient and Trustworthy Social Navigation Via Explicit and Implicit Robot-Human Communication"
-date = 2018-06-30
+date = 2019-04-08
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,7 +18,7 @@ authors = ["Yuhang Che", "Dorsa Sadig", "Allison M Okamura"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*IEEE Transactions on Robotics*"
+publication = "*In Preparation*"
 publication_short = "TRO"
 
 # Abstract and optional shortened version.
